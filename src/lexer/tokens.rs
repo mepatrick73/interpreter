@@ -1,0 +1,16 @@
+enum TokenType {
+    Illegal,
+    Eof,
+    Ident,
+    Int,
+    Assign,
+    Plus,
+    Comma,
+    Semicolon,
+    Lparen,
+    Rparen,
+    Lbrace,
+    Rbrace,
+    Function,
+    Rbrace,
+}
