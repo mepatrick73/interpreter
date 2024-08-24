@@ -1,3 +1,5 @@
+use crate::macros::*;
+
 enum TokenType {
     Illegal,
     Eof,
@@ -12,4 +14,10 @@ enum TokenType {
     Lbrace,
     Rbrace,
     Function,
+}
+
+#[derive(new)]
+struct Token {
+    token_type: TokenType,
+    literal: String,
 }
