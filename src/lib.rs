@@ -1,3 +1,1 @@
-mod interpreter {
-    mod lexer;
-}
+mod lexer;

@@ -12,5 +12,4 @@ enum TokenType {
     Lbrace,
     Rbrace,
     Function,
-    Rbrace,
 }
